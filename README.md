@@ -1,4 +1,4 @@
-![image](https://github.com/Srikanth20141/playwright/assets/35730413/16859fb2-056d-4e15-8306-5c0f45f4a85d)# Playwright Documents
+# Playwright Documents
 
 This repository contains all the project documents that I follow for the manual activity. The projects were completed using a combination of manual testing techniques and test management tools.
 
