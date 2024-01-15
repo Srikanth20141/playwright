@@ -17,8 +17,8 @@ This repository contains all the project documents that I follow for the manual 
 **Run a specific test file:** npx playwright test test.spec.js <br />
 **Run on specific browser:**  npx playwright test --project=chromium <br />
 **Run tests in headed mode:** npx playwright –headed <br />
-**Severity:** Minor / Major <br />
-**Priority:** Low / Medium / High <br />
+**View the report:** npx playwright show-report <br />
+**Record the test:** npx playwright codegen <br />
 **Resolution:** Resolved / Fix / Closed <br />
 **Type:** Bug / Task / Subtask <br />
 **Reporter:** Srikanth <br />
