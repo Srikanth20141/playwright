@@ -12,11 +12,11 @@ This repository contains all the project documents that I follow for the manual 
 **npm init playwright@latest:->** initial project <br />
 **create the node project:->** npm init -y <br />
 **Install playwright :->** npm install playwright <br />
-**Project:** XYZ <br />
-**Status:** To Do / In progress / Resolve or Done / Closed / Reopen <br />
-**Affected version:** V2.0.0.0 <br />
-**Fix version:**  V2.0.0.0 <br />
-**Components:** Mobile <br />
+**Run the test in the headless mode:->** npx playwright test <br />
+**Run the test in multiple worker parallel :** npx playwright test –workers 3 <br />
+**Run a specific test file:** npx playwright test test.spec.js <br />
+**Run on specific browser:**  npx playwright test --project=chromium <br />
+**Run tests in headed mode:** npx playwright –headed <br />
 **Severity:** Minor / Major <br />
 **Priority:** Low / Medium / High <br />
 **Resolution:** Resolved / Fix / Closed <br />
