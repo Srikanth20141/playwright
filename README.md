@@ -1,4 +1,4 @@
-# Playwright Documents
+![image](https://github.com/Srikanth20141/playwright/assets/35730413/16859fb2-056d-4e15-8306-5c0f45f4a85d)# Playwright Documents
 
 This repository contains all the project documents that I follow for the manual activity. The projects were completed using a combination of manual testing techniques and test management tools.
 
@@ -10,7 +10,8 @@ This repository contains all the project documents that I follow for the manual 
 
 ## VS code commands
 **npm init playwright@latest:->** initial project <br />
-**create the node project:->** <br />
+**create the node project:->** npm init -y <br />
+**Install playwright :->** npm install playwright <br />
 **Project:** XYZ <br />
 **Status:** To Do / In progress / Resolve or Done / Closed / Reopen <br />
 **Affected version:** V2.0.0.0 <br />
