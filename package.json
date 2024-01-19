@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "api":"npx playwright test --project=Chromium"
+    "api": "npx playwright test --project=Chromium",
+    "report": "npx playwright show-report"
   },
   "keywords": [],
   "author": "",
@@ -12,5 +13,9 @@
   "devDependencies": {
     "@playwright/test": "^1.40.1",
     "@types/node": "^20.11.2"
+  },
+  "dependencies": {
+    "and": "^0.0.3",
+    "build": "^0.1.4"
   }
 }
