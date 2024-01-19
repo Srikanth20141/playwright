@@ -17,5 +17,5 @@ test('API GET Request', async({request})=>{
     expect(response.status()).toBe(200)
     const responseBody = JSON.parse(await response.text())
     expect(responseBody.fullyQualifiedName).toBe('sconnect.v4.rawvolume')
-    //expect(responseBody.versionId).toBe('431')
+    expect(responseBody.versionId).toBe('431')
 });
