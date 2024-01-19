@@ -12,7 +12,9 @@
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.40.1",
-    "@types/node": "^20.11.2"
+    "@types/node": "^20.11.2",
+    "allure-commandline": "^2.26.0",
+    "allure-playwright": "2.11.1"
   },
   "dependencies": {
     "and": "^0.0.3",
