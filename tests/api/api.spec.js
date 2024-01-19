@@ -1,7 +1,8 @@
 import {test, expect} from '@playwright/test'
+const baseURL = 'https://bc-sc-sqa-tt016.ocs-support.com/api/v1/reporting/schema/sconnect.v4.rawvolume/en'
 
 test('API GET Request', async({request})=>{
-    const response = await request.get('https://bc-sc-sqa-tt016.ocs-support.com/api/v1/reporting/schema/sconnect.v4.rawvolume/en',{
+    const response = await request.get(baseURL,{
         headers:{
             'Content-Type':'application/json',
             'X-AUTH-DEVICE-ID':'PCroSm5Vhb0u0t02LCGCc3Iok4cp',
@@ -12,6 +13,6 @@ test('API GET Request', async({request})=>{
             'x-api-key': '1f86c0c37dfd18792677a158ed9af9f6', 
             'X-AUTH-OTP':'QoGCGKxsVWLxtsZ+cJgPioGtYfodVRKPl8kxx55xxCXMDW4W8ftCIEfrRUiy0HrHKNqp8BIf4L3vjlKvKBztvpm8lrIrT0zbud8E71FDyZI=,X-BlueCoat-Via=ccfe07c2148a837c',
         },
-    });
-
+    })
+    expect(response.status()).toBe(200)
 });
