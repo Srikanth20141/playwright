@@ -1,3 +1,3 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"failed","Fri Jan 19 13:29:34 WET 2024","Fri Jan 19 13:29:35 WET 2024","419","chromium","api.spec.js","","","","API GET Request 1",""
-"passed","Fri Jan 19 13:29:33 WET 2024","Fri Jan 19 13:29:33 WET 2024","500","chromium","api.spec.js","","","","API GET Request",""
+"failed","Mon Jan 22 14:33:48 WET 2024","Mon Jan 22 14:33:49 WET 2024","706","chromium","api.spec.js","","","","API GET Request",""
+"failed","Mon Jan 22 14:33:48 WET 2024","Mon Jan 22 14:33:49 WET 2024","616","firefox","api.spec.js","","","","API GET Request",""
